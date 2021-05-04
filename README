@@ -1,0 +1,31 @@
+BI is a contributed package for R (http://www.r-project.org/)
+
+CRAN URL: http://cran.r-project.org/web/packages/BI/index.html
+
+GitHub URL: https://github.com/marcschwartz/BI
+
+Title: Blinding Assessment Indexes for Randomized, Controlled, Clinical Trials
+
+Description: Generate the James Blinding Index, as described in James et al 
+             (1996) <doi:10.1002/(SICI)1097-0258(19960715)15:13<1421::AID-SIM266>3.0.CO;2-H> 
+             and the Bang Blinding Index, as described in Bang et al (2004) <doi: 10.1016/j.cct.2003.10.016>.
+             These are measures to assess whether or not satisfactory blinding has been maintained in a 
+             randomized, controlled, clinical trial. These can be generated for trial 
+             subjects, research coordinators and principal investigators, based upon 
+             standardized questionnaires that have been administered, to assess whether 
+             or not they can correctly guess to which treatment arm (e.g. placebo or 
+             treatment) subjects were assigned at randomization. 
+
+License: This package is licensed under GPL version 3. See the GPL-3 file.
+
+Authors: Marc Schwartz and Nate Mercaldo
+
+Copyright 2010 - 2020: Original 2010 R Code by Nate Mercaldo (nmercaldo@mgh.harvard.edu)
+Copyright 2021: Updates by Marc Schwartz (marc_schwartz@me.com)
+
+If you wish to install this package directly from this GitHub repository, as opposed
+to installing from CRAN, install the "devtools" package and use the following command:
+
+devtools::install_github("marcschwartz/BI")
+
+Please review the help page for the install_github() function for additional options.
